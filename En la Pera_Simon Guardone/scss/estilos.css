@@ -1,0 +1,112 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Source Code Pro', monospace;
+}
+
+body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff3c00), to(#ffee00));
+  background-image: linear-gradient(#ff3c00, #ffee00);
+}
+
+.header-index {
+  color: white;
+}
+
+.header-index .header-index__h1 {
+  letter-spacing: 4px;
+  word-spacing: 3px;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 50px;
+  font-family: 'Russo One', sans-serif;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.header-index .header-index__h1 .header-index__h4 {
+  text-align: center;
+}
+
+.main-index {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1348px;
+  height: 800px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.sec {
+  margin: 1px 1px 1px 1px;
+  border: solid 1px #ffe600;
+  line-height: 1.6;
+  border-radius: 10px;
+  background-color: #ff3c00;
+  width: 330px;
+  color: white;
+}
+
+.sec:hover {
+  -webkit-transform: scale(135%, 135%);
+          transform: scale(135%, 135%);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.section1-index {
+  text-align: center;
+  padding-top: 10px;
+  overflow-y: scroll;
+}
+
+.section1-index:hover {
+  -webkit-transform: scale(135%, 135%) translate(200px, -15px);
+          transform: scale(135%, 135%) translate(200px, -15px);
+}
+
+.section2-index {
+  line-height: 1.6;
+  padding-top: 10px;
+  text-align: center;
+  overflow-y: scroll;
+}
+
+.section3-index {
+  padding-left: 10px;
+}
+
+.section4-index {
+  text-align: center;
+}
+
+.section4-index:hover {
+  -webkit-transform: scale(135%, 135%) translate(-200px, -15px);
+          transform: scale(135%, 135%) translate(-200px, -15px);
+}
+
+.section5-index {
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+/*# sourceMappingURL=estilos.css.map */
